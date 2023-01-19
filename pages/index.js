@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "@/styles/Profile.module.css";
+import styles from "../styles/Profile.module.css";
 
 // const inter = Inter({ subsets: ["latin"] });
 

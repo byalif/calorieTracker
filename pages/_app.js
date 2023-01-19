@@ -1,4 +1,4 @@
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import Navbar from "../components/Navbar.js";
 import { Provider } from "react-redux";
 import reduxStore from "../redux/store.js";

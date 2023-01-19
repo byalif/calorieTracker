@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/Login.module.css";
+import styles from "../styles/Login.module.css";
 import { useRouter } from "next/router";
 import axios from "axios";
 import { AppContext } from "../components/context.js";
