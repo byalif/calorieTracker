@@ -1,0 +1,104 @@
+.cont{
+    position: relative;
+            background-image: url("../images/bg.png");
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100vh;
+
+}
+
+
+.clickCont{
+    position: absolute;
+    top: 42%;
+    left: 30%;
+} 
+
+.click{
+    
+        text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            color: white;
+            font-weight: 100;
+            padding: 20px 20px;
+            border-radius: 10px;
+            max-width: 55%;
+            font-size: 20px;
+            background-color: rgb(137, 170, 158);
+            transform: translate(-50%, -50%);
+            transform: scale(1, 1);
+}
+
+.nut{
+    text-shadow: 1px 1px 25px rgb(142, 184, 192);
+      margin-bottom: 5px;
+    font-size: 55px;
+}
+
+.click:hover{
+    
+    background-color: rgb(158, 193, 180);
+    animation: zoom-in-zoom-out 1.3s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@media screen and (max-width: 589px){
+    .click{
+        /* max-width: 40%; */
+    }
+}
+
+@media screen and (max-width: 410px) {
+.cont {
+        position: relative;
+        background-image: url("../images/bg.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110vh;
+        width:110%;
+
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .cont {
+        position: relative;
+        background-image: url("../images/bg.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 120vh;
+        width: 115%;
+
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .cont {
+        position: relative;
+        background-image: url("../images/bg.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 125vh;
+        width: 125%;
+
+    }
+}
