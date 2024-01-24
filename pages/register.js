@@ -54,16 +54,16 @@ export default function Register() {
       return;
     }
     console.log(info);
-    // axios
-    //   .post("https://cal-tracker.herokuapp.com/createUser", info)
-    //   .then((x) => {
-    //     setErr(false);
-    //     router.push("/login");
-    //     console.log(x);
-    //   })
-    //   .catch((err) => {
-    //     console.log(err);
-    //   });
+    axios
+      .post("https://cal-tracker.herokuapp.com/createUser", info)
+      .then((x) => {
+        setErr(false);
+        router.push("/login");
+        console.log(x);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
